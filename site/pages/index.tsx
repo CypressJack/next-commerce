@@ -51,7 +51,7 @@ export default function Home({
               priority: true,
             }}
           />
-        ))}
+        ))} 
       </Grid>
       <Marquee variant="secondary">
         {products.slice(0, 3).map((product: any, i: number) => (
